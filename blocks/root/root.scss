@@ -1,0 +1,23 @@
+$font-family: 'Inter', 'Arial', sans-serif;
+
+.root {
+    header, span, div, nav, p, h1, h2, h3, h4, a, section, ul, li, img, iframe, input, textarea, button {
+        outline: 1px solid;
+        outline-color: red;
+    }
+
+    margin: 0;
+    background-color: #fff;
+    font-family: $font-family;
+    color: #fff;
+
+    &__content {
+        margin: 0 auto;
+        padding: 34px 50px 84px 50px;
+        min-width: 300px;
+        max-width: 1440px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+}

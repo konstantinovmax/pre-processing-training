@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SCSS Training</title>
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
-<body>
-    
+<body class="root">
+    <div class="root__content">
+        <header class="header">
+            <div class="header__container">
+                <img class="header__logo" src="./images/header-logo.png" alt="Лого проекта">
+                <nav class="header__nav-links">
+                    <a class="header__nav-link" href="">Design Gallery</a>
+                    <a class="header__nav-link" href="">List of Architect</a>
+                    <a class="header__nav-link" href="">Articles</a>
+                    <a class="header__nav-link" href="">How it Works</a>
+                </nav>
+            </div>
+            <div class="header__container">
+                <button class="header__button header__button_type_search" type="button"></button>
+                <button class="header__button header__button_type_signin" type="button">Sign In</button>
+                <button class="header__button header__button_type_signup" type="button">Sign Up</button>
+            </div>
+        </header>
+    </div>
 </body>
 </html>
