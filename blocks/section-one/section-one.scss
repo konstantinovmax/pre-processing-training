@@ -1,0 +1,71 @@
+$font-family: 'Inter', 'Arial', sans-serif;
+
+.section-one {
+    padding: 72px 165px 0 165px;
+    display: flex;
+    flex-direction: column;
+
+    &__main-title {
+        margin: 0;
+        max-width: 870px;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 112px;
+        line-height: 112px;
+        color: #000;
+
+        &_type_another-color {
+            color: #FD665E;
+        }
+    }
+
+    &__grid-container {
+        margin: 47px 0 0 0;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        gap: 48px 55px;
+        grid-template-areas:
+        "text image image"
+        "button image image"
+        ". image image";
+    }
+
+    &__text {
+        
+        margin: 0;
+        max-width: 870px;
+        font-family: $font-family;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000;
+        grid-area: text;
+    }
+
+    &__button {
+        margin: 0;
+        width: 179px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        background-color: #FD665E;
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+        grid-area: button;
+    }
+
+    &__image {
+        margin: 0;
+        width: 765px;
+        height: 480px;
+        object-fit: cover;
+        grid-area: image;
+    }
+}

@@ -1,6 +1,7 @@
 $font-family: 'Inter', 'Arial', sans-serif;
 
 .header {
+    padding: 34px 51px 0 51px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +51,7 @@ $font-family: 'Inter', 'Arial', sans-serif;
             margin: 0 50px 0 0;
             width: 14px;
             height: 14px;
-            background-image: url(../../images/header-search.png);
+            background-image: url(../../images/Vector2.svg);
             background-repeat: no-repeat;
             background-position: center;
         }

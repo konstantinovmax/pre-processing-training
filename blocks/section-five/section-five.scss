@@ -1,0 +1,52 @@
+$font-family: 'Inter', 'Arial', sans-serif;
+
+.section-five {
+    padding: 64px 179px 64px 156px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F9F9;
+
+    &__house-image {
+        width: 497px;
+        height: 684px;
+        object-fit: cover;
+    }
+
+    &__text-button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__title {
+        margin: 0;
+        max-width: 540px;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #000;
+
+        &_type_another-color {
+            color: #FD665E;
+        }
+    }
+
+    &__button {
+        margin: 64px 0 0 0;
+        width: 204px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        outline: none;
+        cursor: pointer;
+        background-color: #FD665E;
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        color: #fff;
+    }
+}

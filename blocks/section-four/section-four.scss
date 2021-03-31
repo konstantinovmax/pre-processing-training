@@ -1,0 +1,93 @@
+$font-family: 'Inter', 'Arial', sans-serif;
+
+.section-four {
+    padding: 54px 165px 64px 165px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+
+    &__title {
+        margin: 0;
+        max-width: 390px;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #000;
+    }
+
+    &__container {
+        margin: 46px 0 0 0;
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+    }
+
+    &__quote {
+        margin: 0 52px 0 0;
+    }
+
+    &__text-slider-container {
+        margin: 0;
+    }
+
+    &__text {
+        margin: 0;
+        max-width: 765px;
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 32px;
+        line-height: 51px;
+        color: #000;
+    }
+
+    &__author-slider-container {
+        margin: 59px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__author {
+        margin: 0;
+        max-width: 240px;
+        font-family: $font-family;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000;
+
+        &_type_bold {
+            font-weight: 700;
+        }
+    }
+
+    &__slider-container {
+        margin: 0;
+    }
+
+    &__slider-button {
+        width: 48px;
+        height: 48px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+
+        &_type_left {
+            margin: 0 8px 0 0;
+            background-image: url(../../images/Vector.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: inherit;
+        }
+
+        &_type_right {
+            background-image: url(../../images/Vector6.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: rgba(0, 0, 0, 0.03);
+            border-radius: 4px;
+        }
+    }
+}

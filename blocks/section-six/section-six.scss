@@ -1,0 +1,28 @@
+$font-family: 'Inter', 'Arial', sans-serif;
+
+.section-six {
+    padding: 64px 158px 64px 165px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F9F9F9;
+
+    &__title {
+        margin: 0;
+        max-width: 380px;
+        font-family: $font-family;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #000;
+    }
+
+    &__container {
+        margin: 16px 0 0 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__image {
+        margin: 0;
+    }
+}
